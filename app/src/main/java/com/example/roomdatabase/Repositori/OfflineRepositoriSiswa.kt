@@ -1,9 +1,10 @@
 package com.example.roomdatabase.Repositori
 
 import com.example.roomdatabase.Data.Siswa
+import com.example.roomdatabase.Data.SiswaDao
 import kotlinx.coroutines.flow.Flow
 
-class OfflineRepositoriSiswa(private val siswaDao: SiswaDao):RepositoriSiswa {
+class OfflineRepositoriSiswa(private val siswaDao : SiswaDao):RepositoriSiswa {
     override fun getAllSiswaStream(): Flow<List<Siswa>> {
         return siswaDao.getAllSiswa()
     }

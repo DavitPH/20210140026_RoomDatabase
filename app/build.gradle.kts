@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId = "com.example.roomdatabase"
         minSdk = 23
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

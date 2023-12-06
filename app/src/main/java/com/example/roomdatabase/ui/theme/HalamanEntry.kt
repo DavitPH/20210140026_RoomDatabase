@@ -28,6 +28,7 @@ import com.example.roomdatabase.Model.EntryViewModel
 import com.example.roomdatabase.Model.PenyediaViewModel
 import com.example.roomdatabase.Model.UIStateSiswa
 import com.example.roomdatabase.Navigasi.DestinasiNavigasi
+import com.example.roomdatabase.Navigasi.SiswaTopAppBar
 import com.example.roomdatabase.R
 import kotlinx.coroutines.launch
 
@@ -48,16 +49,16 @@ fun EntrySiswaScreen(
     Scaffold(
         modifier = modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = {
-            SiswaToAppBar(
+            SiswaTopAppBar(
                 title = stringResource(DestinasiEntry.titleRes),
-                canNavigasiBack = true,
+                canNavigateBack = true,
                 scrollBehavior = scrollBehavior
             )
         }
     ) { innerPadding ->
         EntrySiswaBody(
             uiStateSiswa = viewModel.uiStateSiswa,
-            onSiswaValueChange = viewModel::updateUiState,
+            onSiswaValueChange = viewModel::updateUIState,
             onSaveClick = {
                 coroutineScope.launch {
                     viewModel.saveSiswa()
