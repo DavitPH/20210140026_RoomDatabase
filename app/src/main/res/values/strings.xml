@@ -4,10 +4,10 @@
     <string name="deskrisi_no_item">Tidak ada data siswa. Tap + untuk menambah data</string>
     <string name="nama">Nama Siswa*</string>
     <string name="alamat">Alamat Siswa*</string>
-    <string name="telepon">Telepon Siswa*</string>
+    <string name="telpon">Telepon Siswa*</string>
     <string name="nama1">Nama Siswa :</string>
     <string name="alamat1">Alamat Siswa :</string>
-    <string name="telepon1">Telepon Siswa :</string>
+    <string name="telpon1">Telepon Siswa :</string>
     <string name="required_field">Detail Siswa</string>
     <string name="edit_siswa">Edit Siswa</string>
     <string name="back">Back</string>

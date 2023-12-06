@@ -9,5 +9,5 @@ data class Siswa(
     val id : Int = 0,
     val nama : String,
     val alamat : String,
-    val telpn : String,
+    val telpon : String,
 )
