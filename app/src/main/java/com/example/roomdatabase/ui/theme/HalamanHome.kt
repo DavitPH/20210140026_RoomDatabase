@@ -36,6 +36,7 @@ import com.example.roomdatabase.Data.Siswa
 import com.example.roomdatabase.Model.HomeViewModel
 import com.example.roomdatabase.Navigasi.DestinasiNavigasi
 import com.example.roomdatabase.R
+import com.example.roomdatabase.Model.PenyediaViewModel
 
 object DestinasiHome : DestinasiNavigasi {
     override val route = "home"
