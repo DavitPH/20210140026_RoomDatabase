@@ -1,4 +1,5 @@
 package com.example.roomdatabase.Data
+
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
